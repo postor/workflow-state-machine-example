@@ -1,0 +1,29 @@
+{
+  "name": "workflow-state-machine-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/workflow-state-machine-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/workflow-state-machine-example/issues"
+  },
+  "homepage": "https://github.com/postor/workflow-state-machine-example#readme",
+  "dependencies": {
+    "javascript-state-machine": "^3.1.0",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
