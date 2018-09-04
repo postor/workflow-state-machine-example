@@ -11,13 +11,7 @@ export default class Task extends Component {
   }
 
   loadStateFromFSM() {
-    console.log('loadStateFromFSM');
     const { fsm } = this.props
-    console.log(fsm, this.props);
-    if (!fsm) {
-      console.log(fsm, this.props);
-      return
-    }
     this.setState({
       state: fsm.state,
       candos: fsm.transitions(),
