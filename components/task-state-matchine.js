@@ -14,7 +14,8 @@ const transitions = [
   { name: '分配研发人员', from: states.init, to: states.developing },
   { name: '提交测试', from: states.developing, to: states.testing },
   { name: '通过测试', from: states.testing, to: states.done },
-  { name: '未通过测试', from: states.testing, to: states.init },
+  { name: '未通过测试', from: states.testing, to: states.init },  
+  //{ name: '未通过测试', from: states.testing, to: states.developing },
   {
     name: '关闭',
     from: [
